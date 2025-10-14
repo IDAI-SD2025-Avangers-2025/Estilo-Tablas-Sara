@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo tabla</title>
 
+    <link rel="stylesheet" href="fontawesome-free-7.1.0-web/css/all.css">
+</head>
+<body style="background-color: rgb(208, 90, 208);">
+    
+
+    <style>
+        table{
+            margin:auto;
+            margin-top: 50px;
+
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td{
+          border: 1px solid black;
+          padding: 5px 10px;  
+        }
+
+        table th,
+        table td:first-child{
+            background-color: rgb(118, 64, 118);
+            color: black;
+            font-weight: 600;
+            width: 100px;
+        }
+
+        table td i{
+            margin-right: 15px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        table td i :nth-child(1){
+            color: darkred;
+        }
+
+        table td i:nth-child(2){
+            color:  darkred;
+        }
+
+        table td i:nth-child(3){
+            color: darkred;
+            margin-right: 0px;
+        }
+
+        table tr:nth-child(odd){
+            background-color: rgb(0, 139, 113)
+        }
+
+        table tr:hover{
+            background-color: rgb(230, 64, 147);
+        }
+
+        table tr:hover{
+            opacity:0.07;
+        }
+
+    </style>
+    <table border="2">
+        <tbody style="background-color: #dee2e6"></tbodystyle>
+        <tr>
+            <th>Matrícula</th>
+            <th>Nombre(s)</th>
+            <th>Apellidos</th>
+            <th>Opciones</th>
+        </tr>
+        </thead>
+        <tr><td>45231</td>
+            <td>Sofia Rubí</td>
+            <td>Rodriguez Morales</td>
+        <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+        </td>
+        </tr>
+        <tr><td>52369</td>
+            <td>Eduardo Amir</td>
+            <td>Valenzuela Castro</td>
+            <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+
+            </td>
+        </tr>
+        <tr><td>22036</td>
+            <td>Manuel Israel</td>
+            <td>Sanchez Cornelio</td>
+            <td>
+              <i class="fa-solid fa-circle-info"></i>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-trash"></i>
+            </td>
+        </tr>
+        <tr><td>03659</td>
+            <td>Nahomi Abigail</td>
+            <td>Guerra Garza</td>
+            <td>
+              <i class="fa-solid fa-circle-info"></i>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-trash"></i>
+            </td>  
+              
+        </tr>
+        <tr><td>29967</td>
+            <td>Emilio</td>
+            <td>Quiroga Andrade</td>
+            <td>
+              <i class="fa-solid fa-circle-info"></i>
+              <i class="fa-solid fa-pen-to-square"></i>
+              <i class="fa-solid fa-trash"></i>
+            </td>
+            </tbody>
+        </tr>
+    </table>
+
+    <!-- Tabla Avanzada de HTML -->
+     <table>
+
+        <thead style="background-color: grey">
+            <tr>
+                <th>Horario</th>
+                <th>Clases</th>
+                <th>Salón</th>
+            </tr>
+        </thead>
+
+        <tbody style="background-color: grey">
+
+            <tr>
+                <td>7:00am a 7:50am</td>
+                <td>Inglés Avanzado</td>
+                <td>310</td>
+            </tr>
+
+            <tr>
+                <td>8:00am a 8:50am</td>
+                <td>Economía</td>
+                <td>210</td>
+            </tr>
+
+            <tr>
+                <td>9:00am a 9:50am</td>
+                <td>Matemáticas Financiera</td>
+                <td>210</td>
+            </tr>
+
+            <tr>
+                <td>10:00am a 10:50am</td>
+                <td>Certificación Laboral</td>
+                <td>400</td>
+            </tr>
+
+            <tr>
+                <td>11:30am a 1:20pm</td>
+                <td>Desarrollo Emprendedor</td>
+                <td>310</td>
+            </tr>
+
+            <tr>
+                <td>1:30pm a 2:20pm</td>
+                <td>Probabilidad y Estadistica</td>
+                <td>310</td>
+            </tr>
+               
+            <tr>
+                <td>2:20pm a 3:30pm</td>
+                <td>Filosofía</td>
+                <td>310</td>
+            </tr>
+        </tbody>
+     </table>
+</body>
+</html>
